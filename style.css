@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: #fff;
+
+}
+
+.container {
+    max-width: 1920px;;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+/* HEADER */
+
+
+.header--container {
+    max-width: 672px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.header--container ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.header--container ul li a {
+    font-family: "Cormorant Garamond";
+    text-decoration: none;
+    color: #fff;
+}
+
+/* MAIN */
+
+.main--container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro {
+    width: 672px;
+    text-align: center;
+}
+
+.intro h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.info {
+    max-width: 475px;
+    justify-content: space-between;
+    margin: 146px 80px 0;
+    background-color: black;
+}
+
+.info--text {
+    width: 315px;
+    height: 138px;
+}
+
+.info--text h4 {
+    font-family: "Cormorant Garamond";
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: left;
+    font-weight: 400;
+}
+
+.info--contact {
+    margin-top: 80px;
+}
+
+.info--contact h2 {
+    font-family: "EB Garamond";
+    font-weight: 700;
+    line-height: 120%;  
+}
+
+.info--contact h4 {
+    font-family: "Cormorant Garamond";
+    font-weight: 400;
+    line-height: 130%;
+    margin-top: 15px;
+}
+
+.info--regulations {
+    margin-top: 60px;
+    gap: 25px;
+}
+
+.info--regulations h4 {
+    font-family: "Cormorant Garamond";
+    font-weight: 400;
+    line-height: 130%;
+    margin-top: 15px;
+}
+
+/* ABOUT */
+
+.about {
+    max-width: 672px;
+}
+
+.about--text {
+    max-width: 856px;
+    height: 251px;
+    text-align: center;
+    padding: 40px 20px;
+    margin: 0 auto; 
+    line-height: 1.6;
+    font-family: "Cormorant Garamond";  
+    font-weight: 700;
+    line-height: 130%;
+}
+
+/* ABOUT IMAGES */
+
+.about--images {
+    max-width: 1296px;
+    height: 832px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.about--image {
+    padding: 1rem;
+}
+
+.about--image h1 {
+    font-family: "Cormorant Garamond";
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.about--logo {
+    display: flex;
+}
+
+/* Наши работы */
+
+.our--works h1 {
+    font-family: "Cormorant Garamond";
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.our--works--navigation {
+    width: 722px;
+    height: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 0px;
+}
+
+.our--works--navigation a {
+    font-family: "Cormorant Garamond";
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* FOOTER-DOWN*/
+
+.footer--down {
+    width: 1296px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 192px;
+}
+
+.footer--contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.footer--operating--mode {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.footer--instagram {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.footer--instagram img {
+    width: 36px;
+    height: 36px;
+}
